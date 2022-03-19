@@ -1,3 +1,4 @@
+<!DOCTYPE html> <!-- For HTML 5 -->
 <html lang="en" dir="ltr">
 
 <head>
@@ -5,100 +6,64 @@
   <meta name="description" content="This is my portfolio website: A continuous learner who cares more about learning than CTC! (Currently learning python and full stack development)
 Currently working on Reporting (Python ad Excel), Automation (Power BI and basic ETL) and Advanced Analytics (ML and NLP)">
   <title>M V S Sudhir Work Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="Images\Profile Picture.jpg" alt="Sudhir Profile Pic"> <!-- Used for SEO -->
-      </td>
-      <td>
-        <h1>M V S Sudhir</h1>
-        <a href="https://www.linkedin.com/in/sudhir-m-v-s-3a2a3a98/">LinkedIn</a>
-        <p><em>People Analytics | D E Shaw | IIM Ranchi Gold Medalist | </em></p>
-        <p>A continuous learner who cares more about learning than CTC! (Currently learning python and full stack development)
-          Currently working on Reporting (Python ad Excel), Automation (Power BI and basic ETL) and Advanced Analytics (ML and NLP)</p>
-      </td>
-    </tr>
-  </table>
 
-  <hr>
-  <h3>Education <a href="Edu.html">(see details)</a></h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Role</th>
-      </tr>
-    </thead>
+  <div class="top-container">
+    <img class="cloud1" src="Images\cloud.png" alt="cloud-img">
+    <h1 class="name">I am Sudhir</h1>
+    <h3>Data Analyst <span class="domain">(People and Strategy)</span></h3>
+    <!-- <a href="https://www.linkedin.com/in/sudhir-m-v-s-3a2a3a98/">LinkedIn</a> -->
+    <img class="cloud2" src="Images\cloud.png" alt="cloud-img">
+    <img src="Images\mountain.png" alt="mountain-img">
 
-    <tbody>
-      <tr>
-        <td>Nov 2019-Current</td>
-        <td>Indian Institute of Management, Ranchi</td>
-      </tr>
-      <tr>
-        <td>Nov 2019-Current</td>
-        <td>Silicon Institute of Technology, Bhubaneswar / BPUT</td>
-      </tr>
-      <tr>
-        <td>May 2015 - May 2017</td>
-        <td>Kendriya Vidyalaya, IIT Kgp (CBSE)</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Role</th>
-      </tr>
-    </thead>
+  </div>
 
-    <tbody>
-      <tr>
-        <td>Nov 2019-Current</td>
-        <td>Senior Specialist, D E Shaw</td>
-      </tr>
-      <tr>
-        <td>Nov 2019-Current</td>
-        <td>Assistant Manager, L&T</td>
-      </tr>
-      <tr>
-        <td>May 2015 - May 2017</td>
-        <td>Systems Engineer, Infosys</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic"src="Images\Profile Picture.jpg" alt="">
+      <h2>Hello.</h2>
+      <p class="intro">A continuous learner! Currently learning python for data science and full stack development.
+        Currently working on Reporting (Python ad Excel), Automation (Power BI and basic ETL) and Advanced Analytics (ML and NLP). </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="PBI" src="https://cdn-icons-png.flaticon.com/512/2782/2782066.png" alt="Power BI">
+        <h3>Power BI</h3>
+        <p>Level: ⭐ ⭐ ⭐ ⭐ ⭐ </p>
+        <p>Built 50+ custom dashobards to enable Just In Time Reporting for stakeholders and startegy planning for leadership. Fluent across Data Modelling, DAX commands, Power Query and other features such as row level security, scheduled refresh etc.</p>
+      </div>
+      <div class="skill-row">
+        <img class="SQL" src="https://cdn-icons.flaticon.com/png/512/4248/premium/4248443.png?token=exp=1647695666~hmac=b6686e55bbdeaaec6ea082d9290107b2" alt="SQL">
+        <h3>SQL and RDBMS</h3>
+        <p>Level: ⭐ ⭐ ⭐ ⭐ </p>
+        <p>Adepth at using complex SQL statements to query the required data in required fromat. Able to optimize the queries for use in visualization tools</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love learning or coding or data analytics as much as I do.</h3>
+      <p>Let us connect and learn together!</p>
+      <a class="btn" href="mailto:name@email.com">Contact Me</a>
+    </div>
+  </div>
 
-  <h3>Skills</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Skill</th>
-        <th>Level</th>
-      </tr>
-    </thead>
 
-    <tbody>
-      <tr>
-        <td>Puthon for Data Science</td>
-        <td>★★★☆☆</td>
-      </tr>
-      <tr>
-        <td>Power BI</td>
-        <td>★★★★☆</td>
-      </tr>
-      <tr>
-        <td>Advanced Excel</td>
-        <td>★★★★☆</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <hr>
-  <a href="Contact.html">Contact Me :)</a>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/sudhir-m-v-s-3a2a3a98/"><img class="sm-links" src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504799.png?token=exp=1647700827~hmac=d87bb9e9337af39643e7a49a960c7d8a" alt="SQL"></a>
+    <a class="footer-link" href="https://twitter.com/"><img class="sm-links" src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670151.png?token=exp=1647700794~hmac=4b59c524ee320e3a4ddf94e4371fd587" alt="SQL"></a>
+    <a class="footer-link" href="https://www.appbrewery.co/"><img class="sm-links" src="https://cdn-icons.flaticon.com/png/512/3308/premium/3308395.png?token=exp=1647700864~hmac=f03f4e977f8279680a783444b0b724be" alt="SQL"></a>
+    <p class="copyright"</clas>© 2022 MVSSudhir.</p>
+  </div>
 
 </body>
 
